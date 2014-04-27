@@ -1,0 +1,26 @@
+1.)
+"The systematic investigation into and study of materials and sources in order to establish facts and reach new conclusions." Oxford Dictionary (http://www.oxforddictionaries.com/definition/english/research)
+
+"Systematic investigative process employed to increase or revise current knowledge by discovering new facts. It is divided into two general categories: (1) Basic research is inquiry aimed at increasing scientific knowledge, and (2) Applied research is effort aimed at using basic research for solving problems or developing new processes, products, or techniques."
+http://www.businessdictionary.com/definition/research.html
+
+Conclusion: Systematic and Investigation are the key words in both definition. So, you have to develop an System, or an own structure, to find conclusions.
+
+2.)
+"5.2 Array indexing. Subsections of an array
+
+Individual elements of an array may be referenced by giving the name of the array followed by the subscripts in square brackets, separated by commas.
+
+More generally, subsections of an array may be specified by giving a sequence of index vectors in place of subscripts; however if any index position is given an empty index vector, then the full range of that subscript is taken."
+doc/manual/R-intro.html#Array-indexing
+
+"3.4 Indexing
+
+R contains several constructs which allow access to individual elements or subsets through indexing operations. In the case of the basic vector types one can access the i-th element using x[i], but there is also indexing of lists, matrices, and multi-dimensional arrays. There are several forms of indexing in addition to indexing with a single integer. Indexing can be used both to extract part of an object and to replace parts of an object (or to add parts)."
+doc/manual/R-lang.html#Indexing
+
+"
+
+3.)
+wurf= replicate(1000, sample(1:6, 1)) #Würfelwurf Aus 6 Möglichkeiten nimm eine und wiederhole das 1k mal
+mysum= sum(wurf==3) + sum(wurf==4) + sum(wurf==5) #3,4,5 aufsummieren
